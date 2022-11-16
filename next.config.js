@@ -8,8 +8,10 @@ const nextConfig = {
 module.exports = {
   i18n,
   nextConfig,
-  images: {
-    domains: ['qrs-global.com'],
-    formats: ['image/webp'],
+  env: {
+    images: {
+      domains: ['qrs-global.com'],
+      formats: ['image/webp'],
+    },
   },
 };
