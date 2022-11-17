@@ -12,4 +12,5 @@ module.exports = {
   images: {
     domains: ['qrs-global.com'],
   },
+  optimizeFonts: false,
 };
