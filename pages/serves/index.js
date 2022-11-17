@@ -9,11 +9,11 @@ const Serves = ({ servescat, allserves }) => {
   const catdata = servescat.servescat;
   //all serves <--start-->
   const allservesdata = allserves.allserves;
-  // const myLoader = ({ src, width, quality }) => {
-  //   return `https://qrs-global.com/uploads/${src}?w=${width}&q=${
-  //     quality || 75
-  //   }`;
-  // };
+  const myLoader = ({ src, width, quality }) => {
+    return `https://qrs-global.com/uploads/${src}?w=${width}&q=${
+      quality || 75
+    }`;
+  };
   const Allservescircles = () => {
     return (
       allservesdata &&
@@ -24,8 +24,9 @@ const Serves = ({ servescat, allserves }) => {
               <div className={styles.homeCircleItem__img}>
                 <div className={styles.homeCircleItem__img_wrapper}>
                   <Image
+                    loader={myLoader}
                     alt='page cover'
-                    src={`https://qrs-global.com/uploads/${item.pic}`}
+                    src={`${item.pic}`}
                     // src='/img/serves/i1.png'
                     layout='fill'
                     objectFit='contain'

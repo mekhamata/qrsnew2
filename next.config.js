@@ -1,17 +1,16 @@
 /** @type {import('next').NextConfig} */
 const { i18n } = require('./next-i18next.config');
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-};
+// const nextConfig = {
+//   reactStrictMode: true,
+//   swcMinify: true,
+// };
 
 module.exports = {
   i18n,
-  nextConfig,
-  env: {
-    images: {
-      domains: ['qrs-global.com'],
-      formats: ['image/webp'],
-    },
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['qrs-global.com'],
+    hostname: ['qrs-global.com/**'],
   },
 };
