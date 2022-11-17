@@ -11,6 +11,5 @@ module.exports = {
   swcMinify: true,
   images: {
     domains: ['qrs-global.com'],
-    hostname: ['qrs-global.com/**'],
   },
 };
