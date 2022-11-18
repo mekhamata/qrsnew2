@@ -40,11 +40,12 @@
     url('../assets/fonts/spoiler/FbSpoilerBold.svg#FbSpoilerBold') format('svg');
 }
 html {
+  font-family: 'FbSpoilerRegular', 'EnSpoiler';
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: 'FbSpoilerRegular', 'EnSpoiler', GillSans-Light, sans-serif;
+  font-family: 'FbSpoilerRegular', 'EnSpoiler';
   margin: 0;
   padding: 0;
 }
