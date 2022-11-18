@@ -1,53 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap');
 @font-face {
   font-family: 'EnSpoiler';
-  src: url('https://dgw.co.il/spoiler/EnSpoiler.eot');
-  src: url('https://dgw.co.il/spoiler/EnSpoiler.eot')
-      format('embedded-opentype'),
-    url('https://dgw.co.il/spoiler/EnSpoiler.woff2') format('woff2'),
-    url('https://dgw.co.il/spoiler/EnSpoiler.woff') format('woff'),
-    url('https://dgw.co.il/spoiler/EnSpoiler.ttf') format('truetype'),
-    url('https://dgw.co.il/spoiler/EnSpoiler.svg#EnSpoiler') format('svg');
+  src: url('../assets/fonts/spoiler/EnSpoiler.eot');
+  src: url('../assets/fonts/spoiler/EnSpoiler.eot') format('embedded-opentype'),
+    url('../assets/fonts/spoiler/EnSpoiler.woff2') format('woff2'),
+    url('../assets/fonts/spoiler/EnSpoiler.woff') format('woff'),
+    url('../assets/fonts/spoiler/EnSpoiler.ttf') format('truetype'),
+    url('../assets/fonts/spoiler/EnSpoiler.svg#EnSpoiler') format('svg');
 }
 @font-face {
   font-family: 'FbSpoilerRegular';
-  src: url('https://dgw.co.il/spoiler/FbSpoilerRegular.eot');
-  src: url('https://dgw.co.il/spoiler/FbSpoilerRegular.eot')
+  src: url('../assets/fonts/spoiler/FbSpoilerRegular.eot');
+  src: url('../assets/fonts/spoiler/FbSpoilerRegular.eot')
       format('embedded-opentype'),
-    url('https://dgw.co.il/spoiler/FbSpoilerRegular.woff2') format('woff2'),
-    url('https://dgw.co.il/spoiler/FbSpoilerRegular.woff') format('woff'),
-    url('https://dgw.co.il/spoiler/FbSpoilerRegular.ttf') format('truetype'),
-    url('https://dgw.co.il/spoiler/FbSpoilerRegular.svg#FbSpoilerRegular')
+    url('../assets/fonts/spoiler/FbSpoilerRegular.woff2') format('woff2'),
+    url('../assets/fonts/spoiler/FbSpoilerRegular.woff') format('woff'),
+    url('../assets/fonts/spoiler/FbSpoilerRegular.ttf') format('truetype'),
+    url('../assets/fonts/spoiler/FbSpoilerRegular.svg#FbSpoilerRegular')
       format('svg');
 }
 @font-face {
   font-family: 'EnSpoilerBold';
-  src: url('https://dgw.co.il/spoiler/EnSpoilerBold.eot');
-  src: url('https://dgw.co.il/spoiler/EnSpoilerBold.eot')
+  src: url('../assets/fonts/spoiler/EnSpoilerBold.eot');
+  src: url('../assets/fonts/spoiler/EnSpoilerBold.eot')
       format('embedded-opentype'),
-    url('https://dgw.co.il/spoiler/EnSpoilerBold.woff2') format('woff2'),
-    url('https://dgw.co.il/spoiler/EnSpoilerBold.woff') format('woff'),
-    url('https://dgw.co.il/spoiler/EnSpoilerBold.ttf') format('truetype'),
-    url('https://dgw.co.il/spoiler/EnSpoilerBold.svg#EnSpoilerBold')
-      format('svg');
+    url('../assets/fonts/spoiler/EnSpoilerBold.woff2') format('woff2'),
+    url('../assets/fonts/spoiler/EnSpoilerBold.woff') format('woff'),
+    url('../assets/fonts/spoiler/EnSpoilerBold.ttf') format('truetype'),
+    url('../assets/fonts/spoiler/EnSpoilerBold.svg#EnSpoilerBold') format('svg');
 }
 @font-face {
   font-family: 'FbSpoilerBold';
-  src: url('https://dgw.co.il/spoiler/FbSpoilerBold.eot');
-  src: url('https://dgw.co.il/spoiler/FbSpoilerBold.eot')
+  src: url('../assets/fonts/spoiler/FbSpoilerBold.eot');
+  src: url('../assets/fonts/spoiler/FbSpoilerBold.eot')
       format('embedded-opentype'),
-    url('https://dgw.co.il/spoiler/FbSpoilerBold.woff2') format('woff2'),
-    url('https://dgw.co.il/spoiler/FbSpoilerBold.woff') format('woff'),
-    url('https://dgw.co.il/spoiler/FbSpoilerBold.ttf') format('truetype'),
-    url('https://dgw.co.il/spoiler/FbSpoilerBold.svg#FbSpoilerBold')
-      format('svg');
+    url('../assets/fonts/spoiler/FbSpoilerBold.woff2') format('woff2'),
+    url('../assets/fonts/spoiler/FbSpoilerBold.woff') format('woff'),
+    url('../assets/fonts/spoiler/FbSpoilerBold.ttf') format('truetype'),
+    url('../assets/fonts/spoiler/FbSpoilerBold.svg#FbSpoilerBold') format('svg');
 }
 html {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: 'FbSpoilerRegular', 'EnSpoiler';
+  font-family: 'FbSpoilerRegular', 'EnSpoiler', 'Rubik', 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
