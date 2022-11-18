@@ -97,7 +97,7 @@
 .catalogBtnInLink {
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
 }
 .headerUlComponentContainer {
   display: flex;
