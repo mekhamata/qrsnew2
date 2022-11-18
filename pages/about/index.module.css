@@ -74,7 +74,7 @@
   margin: 0;
   font-size: 30px;
   color: #004b8d;
-  font-family: 'FbSpoilerBold', 'EnSpoilerBold';
+  font-family: 'FbSpoilerBold', 'EnSpoilerBold', 'Rubik', 'Roboto', sans-serif;
 }
 .contentMainH2Title h2,
 .contentText h2 {
@@ -91,7 +91,7 @@
   margin: 0;
   color: black;
   font-size: 18px;
-  font-family: 'FbSpoilerBold', 'EnSpoilerBold';
+  font-family: 'FbSpoilerBold', 'EnSpoilerBold', 'Rubik', 'Roboto', sans-serif;
 }
 .contentText {
   color: black;

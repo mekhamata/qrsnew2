@@ -17,7 +17,7 @@
   /* font-size: 2vw; */
   font-size: calc(12px + 2vw);
   color: #004b8d;
-  font-family: 'EnSpoilerBold';
+  font-family: 'EnSpoilerBold', 'Rubik', 'Roboto', sans-serif;
 }
 .pageData {
   position: relative;
@@ -89,7 +89,7 @@
   margin: 0;
   font-size: 30px;
   color: #004b8d;
-  font-family: 'FbSpoilerBold', 'EnSpoilerBold';
+  font-family: 'FbSpoilerBold', 'EnSpoilerBold', 'Rubik', 'Roboto', sans-serif;
 }
 .contentMainTitle_copy {
   display: flex;
@@ -101,7 +101,7 @@
   margin: 0;
   font-size: 30px;
   color: #004b8d;
-  font-family: 'FbSpoilerBold', 'EnSpoilerBold';
+  font-family: 'FbSpoilerBold', 'EnSpoilerBold', 'Rubik', 'Roboto', sans-serif;
 }
 .titleIconContainer {
   background-image: url('/img/nonhovericon.png');
@@ -131,7 +131,7 @@
   padding: 0;
   margin: 0;
   color: #004b8d;
-  font-family: 'FbSpoilerBold', 'EnSpoilerBold';
+  font-family: 'FbSpoilerBold', 'EnSpoilerBold', 'Rubik', 'Roboto', sans-serif;
   font-size: 27px;
 }
 .coursesListContainer {
@@ -330,7 +330,7 @@
   color: black;
   line-height: 1.2;
   font-size: 15px;
-  font-family: 'EnSpoilerBold';
+  font-family: 'EnSpoilerBold', 'Rubik', 'Roboto', sans-serif;
 }
 .courseItemInInside:hover > .courseItemInInsideImg,
 .courseItemInInside2:hover > .courseItemInInside2Img {
