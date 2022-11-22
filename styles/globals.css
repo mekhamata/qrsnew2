@@ -46,6 +46,7 @@ html {
 }
 body {
   font-family: 'FbSpoilerRegular', 'EnSpoiler', 'Rubik', 'Roboto', sans-serif;
+  font-weight: 500;
   margin: 0;
   padding: 0;
 }
