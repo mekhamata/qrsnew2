@@ -2,11 +2,11 @@
   "name": "mikha-next",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://qrsnew.dgw.co.il",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@createnextapp/async-local-storage": "^1.0.1",

@@ -4,7 +4,8 @@ const { parse } = require('url');
 const next = require('next');
 
 const dev = process.env.NODE_ENV !== 'production';
-const hostname = 'localhost';
+const hostname =
+  process.env.NODE_ENV !== 'production' ? 'localhost' : 'qrsnew.dgw.co.il';
 const port = process.env.PORT || 3000;
 // when using middleware `hostname` and `port` must be provided below
 const app = next({ dev, hostname, port });
@@ -18,20 +19,10 @@ app.prepare().then(() => {
       const parsedUrl = parse(req.url, true);
       const { pathname, query } = parsedUrl;
 
-      if (pathname === '/') {
-        await app.render(req, res, '/', query);
-      } else if (pathname === '/about') {
-        await app.render(req, res, '/about', query);
-      } else if (pathname === '/serves') {
-        await app.render(req, res, '/serves', query);
-      } else if (pathname === '/serves/learning') {
-        await app.render(req, res, '/serves/learning', query);
-      } else if (pathname === '/products') {
-        await app.render(req, res, '/products', query);
-      } else if (pathname === '/products/in') {
-        await app.render(req, res, '/products/in', query);
-      } else if (pathname === '/products/in/:id') {
-        await app.render(req, res, '/products/in', query);
+      if (pathname === '/a') {
+        await app.render(req, res, '/a', query);
+      } else if (pathname === '/b') {
+        await app.render(req, res, '/b', query);
       } else {
         await handle(req, res, parsedUrl);
       }
