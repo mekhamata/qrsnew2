@@ -1,0 +1,21 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/serves": "pages/serves.js",
+  "/products": "pages/products.js",
+  "/about": "pages/about.js",
+  "/serves/[id]": "pages/serves/[id].js",
+  "/_document": "pages/_document.js",
+  "/he/404": "pages/he/404.html",
+  "/en/404": "pages/en/404.html",
+  "/he/500": "pages/he/500.html",
+  "/en/500": "pages/en/500.html",
+  "/he/posts/[id]": "pages/he/posts/[id].html",
+  "/en/posts/[id]": "pages/en/posts/[id].html",
+  "/he/dashboard/users": "pages/he/dashboard/users.html",
+  "/en/dashboard/users": "pages/en/dashboard/users.html",
+  "/he": "pages/he.html",
+  "/en": "pages/en.html",
+  "/he/products/in": "pages/he/products/in.html",
+  "/en/products/in": "pages/en/products/in.html"
+}
