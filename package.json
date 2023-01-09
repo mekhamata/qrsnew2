@@ -2,7 +2,7 @@
   "name": "mikha-next",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://qrsnew.dgw.co.il",
+  "homepage": "https://qrs.dgw.co.il",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
